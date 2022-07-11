@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+html {
+	--main-bg: #333333;
+	--color1: #9cfcff;
+	--color2: #89c0c2;
+	--color3: #01407e;
+}
+
+body {
+	background-color: var(--main-bg);
+}
+
+h1 {
+	font-family: "Bebas Neue", sans-serif;
+	color: var(--color1);
+	font-size: 9em;
+	margin-bottom: 0.1em;
+}
+
+#title-cont {
+	padding: 5% 0 0 10%;
+}
+
+h3 {
+	font-family: "Oswald", sans-serif;
+	color: var(--color2);
+	font-size: 5em;
+	margin-top: 0.2em;
+}
+
+#table-sect {
+	padding: 0 20%;
+}
+
+#table-sect table {
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+}
+
+#table-sect td div {
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 1.5em;
+	border: 3px solid white;
+	padding: 0.4em;
+	border-radius: 25%;
+	transition: 0.3s;
+	height: 4em;
+}
+
+#table-sect div a {
+	color: white;
+	text-decoration: none;
+}
+
+#table-sect div .post-number {
+	font-size: 3em;
+	transition: 0.3s;
+}
+
+#table-sect div:hover .post-number {
+	color: var(--main-bg);
+	font-size: 2em;
+}
+
+#table-sect div .post-title {
+	font-size: 0;
+	transition: 0.3s;
+}
+
+#table-sect div:hover .post-title {
+	font-size: 0.7em;
+	color: var(--main-bg);
+}
+
+#table-sect td div:hover {
+	border-color: var(--color2);
+	background-color: var(--color1);
+}
